@@ -1,0 +1,90 @@
+@font-face {
+    font-family: alexbrush;
+    src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: rajdhani;
+    src: url(fonts/Rajdhani-Regular.ttf);
+}
+
+/*Sitewide Header*/
+.header {
+    height: 180px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #2fb1b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.social {
+    font-size: 10px;
+    color: #2fb1b1;
+    height: 20px;
+}
+
+.facebook, .instagram, .youtube {
+    display: inline;
+    padding: 10px;
+}
+
+.facebook a, .instagram a, .youtube a {
+    text-decoration: none;
+    color: #2fb1b1;
+}
+
+.logo {
+    height: 80%;
+    align-self: center;
+
+}
+
+#webname {
+    font-family: "alexbrush";
+    font-weight:100;
+    font-size: 92px;
+    color: #2fb1b1;
+    margin: 0px;
+    text-align: center;
+}
+
+nav {
+    font-size: 20px;
+    font-family: "rajdhani";
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a:hover {
+    color: #2fb1b1;
+}
+
+/*Body*/
+div.body {
+    max-width: 1920px;
+    font-family: "rajdhani";
+    font-size: 20px;
+}
+
+.idboxhome {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.idboximg {
+    margin: auto;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
