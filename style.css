@@ -1,6 +1,11 @@
 @font-face {
-    font-family: applechancery;
-    src: url(fonts/applechancery.ttf);
+    font-family: alexbrush;
+    src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: rajdhani;
+    src: url(fonts/Rajdhani-Regular.ttf);
 }
 
 /*Sitewide Header*/
@@ -30,29 +35,51 @@ div.social {
 }
 
 #webname {
-    font-family: "applechancery";
+    font-family: "alexbrush";
     font-weight:100;
     text-align: center;
     line-height: 100px;
-    font-size: 71px;
+    font-size: 92px;
     color: #2fb1b1;
     margin-bottom: 14px;
 }
 
 nav {
     text-align: center;
-    font-size: 22px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: "rajdhani";
 }
 
 nav a {
     padding: 50px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 nav a:hover {
-    font-size: 24px;
+    color: #2fb1b1;
 }
 
+/*Body*/
+div.body {
+    max-width: 1920px;
+    font-family: "rajdhani";
+    font-size: 20px;
+}
+
+.idboxhome {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.idboximg {
+    margin: auto;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
